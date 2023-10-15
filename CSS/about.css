@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f8f8f8;
+}
+header {
+  background: #eeeeee;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #b7b5b3;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.logo:hover {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: #b7b5b3;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.navigation a:hover {
+  color: #a0a0aa;
+}
+
+h2 {
+  padding: 110px 200px;
+  font-size: 3em;
+}
+
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.dash2 {
+  padding-left: 19em;
+  margin-top: -6em;
+}
+
+img {
+  padding-top: 0;
+  padding-left: 26em;
+  border-radius: 6%;
+}
+
+.main p {
+  padding: 5px;
+  padding-left: 20em;
+  color: #a3a3a3;
+}
+
+.skillsP {
+  padding-left: 13em;
+  margin-top: -7em;
+}
+.edu {
+  position: absolute;
+  top: 1228px;
+  left: 20em;
+}
+.eduP {
+  padding-left: 13em;
+  margin-top: -7em;
+}
+
+.social-icons a {
+  color: #adaaad;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: #000;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+@media (max-width: 1023px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .navigation a {
+    padding-left: 10px;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+}
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
