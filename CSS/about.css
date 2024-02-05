@@ -92,15 +92,9 @@ img {
   margin-top: -7em;
 }
 
-.social-icons a {
-  color: #adaaad;
-  font-size: 1.7em;
-  padding-right: 30px;
-}
-
 footer {
-  background-color: #181818 ;
-  color: #000;
+  background-color: #181818;
+  color: #fff;
   padding: 2em;
   display: flex;
   justify-content: space-between;
@@ -111,7 +105,13 @@ footer {
   font-weight: 600;
 }
 
-@media (max-width: 1023px) {
+.social-icons a {
+  color: #adadad;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+@media (max-width: 1023) {
   header {
     padding: 12px 20px;
   }
@@ -120,30 +120,29 @@ footer {
     padding-left: 10px;
   }
 
+  .title {
+    font-size: 1.8em;
+  }
+
   section {
     padding: 80px 20px;
   }
-  img {
-    position: absolute;
-    top: 10px;
-    right: 110px;
-    width: 100%;
-    height: auto;
-  }
-
-    h2 {
-    padding-top: 120px;
-    padding-left: 130px;
-    font-size: 16px;
-  }
 }
-@media (max-width: 641px) {
+
+@media (max-width:641) {
   body {
     font-size: 12px;
   }
+  .min-content h2 {
+    font-size: 0.8em;
+  }
+
+  .min-content h3 {
+    font-size: 1.4em;
+  }
 }
 
-@media (max-width: 300px) {
+@media (max-width:300) {
   body {
     font-size: 10px;
   }
