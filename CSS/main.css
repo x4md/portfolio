@@ -108,12 +108,12 @@ footer {
     height: auto;
   }
   h2 {
-    padding-top: 120px;
-    padding-left: 130px;
+    padding-top: 280px;
+    padding-left: 120px;
     font-size: 16px;
   }
   p {
-    padding-left: 50px;
+    padding-left: 30px;
     font-size: 16px;
   }
 }

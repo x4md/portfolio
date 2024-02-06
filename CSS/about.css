@@ -10,6 +10,7 @@
 body {
   background-color: #f8f8f8;
 }
+
 header {
   background: #171717;
   width: 100%;
@@ -54,6 +55,7 @@ h2 {
 section {
   padding: 100px 200px;
 }
+
 .main {
   width: 100%;
   min-height: 10vh;
@@ -61,35 +63,22 @@ section {
   align-items: center;
 }
 
-.dash2 {
-  padding-left: 19em;
-  margin-top: -6em;
+.main h2 {
+  position: absolute;
+  top: 0;
+  left: 9em;
 }
+
+.paragraph {
+  padding: 864px 530px;
+}
+
 
 img {
-  padding-top: 0;
-  padding-left: 28em;
-  border-radius: 6%;
-}
-
-.main p {
-  padding: 5px;
-  padding-left: 20em;
-  color: #a3a3a3;
-}
-
-.skillsP {
-  padding-left: 13em;
-  margin-top: -7em;
-}
-.edu {
   position: absolute;
-  top: 1228px;
-  left: 20em;
-}
-.eduP {
-  padding-left: 13em;
-  margin-top: -7em;
+  top: 15em;
+  left: 28em;
+  border-radius: 6%;
 }
 
 footer {
