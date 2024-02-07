@@ -109,12 +109,12 @@ footer {
     padding-left: 10px;
   }
 
-  .title {
-    font-size: 1.8em;
-  }
-
   section {
     padding: 80px 20px;
+  }
+  
+  .paragraph {
+    
   }
 }
 
