@@ -70,7 +70,7 @@ section {
 }
 
 .paragraph {
-  padding: 864px 530px;
+  padding: 54em 33em;
 }
 
 img {
@@ -112,16 +112,13 @@ footer {
     padding: 80px 20px;
   }
 
+  img {
+    width: 100%;
+  }
+  
   @media (max-width: 992px) {
     body {
       font-size: 12px;
-    }
-    .min-content h2 {
-      font-size: 0.8em;
-    }
-
-    .min-content h3 {
-      font-size: 1.4em;
     }
   }
 
