@@ -73,7 +73,6 @@ section {
   padding: 864px 530px;
 }
 
-
 img {
   position: absolute;
   top: 15em;
@@ -113,25 +112,25 @@ footer {
     padding: 80px 20px;
   }
 
-@media (max-width:992px) {
-  body {
-    font-size: 12px;
-  }
-  .min-content h2 {
-    font-size: 0.8em;
+  @media (max-width: 992px) {
+    body {
+      font-size: 12px;
+    }
+    .min-content h2 {
+      font-size: 0.8em;
+    }
+
+    .min-content h3 {
+      font-size: 1.4em;
+    }
   }
 
-  .min-content h3 {
-    font-size: 1.4em;
+  @media (max-width: 768px) {
   }
-}
 
-@media (max-width:768px) {
-  
-}
-
-@media (max-width:600px) {
-  body {
-    font-size: 10px;
+  @media (max-width: 600px) {
+    body {
+      font-size: 10px;
+    }
   }
 }
