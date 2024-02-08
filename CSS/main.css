@@ -192,7 +192,7 @@ footer {
     }
 
     .main .social-icons {
-        text-align: center;
+      padding-left: 100px;
     }
 
     .title {
