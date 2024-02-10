@@ -94,6 +94,14 @@ body {
     flex-wrap: wrap;
   }
 
+  .card-about {
+    background-color: #fff;
+    box-shadow: 0  5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px 45px 110px;
+    margin: 15px;
+  }
+
   .contact .icon {
     font-size: 4.5em;
   }
