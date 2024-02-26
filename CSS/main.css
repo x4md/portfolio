@@ -88,20 +88,16 @@ body {
     padding-right: 30px;
   }
 
+  .social-icons :hover{
+    transform: scale(1.1);
+}
+
   .about {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .card-about {
-    background-color: #fff;
-    box-shadow: 0  5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-    padding: 25px 45px 110px;
-    margin: 15px;
-  }
+  } 
 
   .contact .icon {
     font-size: 4.5em;
@@ -130,6 +126,11 @@ body {
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
+    transition: 0.7s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
   }
 
   .icon {
@@ -152,7 +153,7 @@ body {
   }
 
   .contact .info p {
-    font-size: 1.3em;
+    font-size: 16px;
   }
 
   
