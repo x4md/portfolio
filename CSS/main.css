@@ -185,29 +185,6 @@ body {
   .contact .info p {
     font-size: 16px;
   }
-
-  .download {
-    display: flex;
-    justify-content: center;
-  }
-
-  .download a {
-    text-decoration: none;
-    color: #181818;
-  }
-  
-  .download-btn {
-    background-color: #fff;
-    box-shadow: 0  5px 25px rgba(1 1 1 / 15%);
-    border-radius: 5000px;
-    padding: 25px;
-    margin: 15px;
-    transition: all 0.7s;
-  }
-
-  .download-btn:hover {
-    transform: scale(1.15);
-  }
   
 footer {
     background-color: #181818;
